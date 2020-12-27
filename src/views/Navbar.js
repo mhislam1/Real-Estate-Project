@@ -1,15 +1,20 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import logo from './styling/Image/house.jpg';
-import background1 from './styling/Image/background1.jpeg';
+import logo from '../styling/Image/house.jpg';
+import landing from '../styling/Image/landing.jpeg';
+import background from '../styling/Image/background1.jpeg'
+
 
 export default function Navbar() {
 	return (
 		<>
+		<body >
 		<header>
 			<div class="container">
 				<a href="/"><img src={logo} alt="logo" /></a>
 			</div>
+
+			<p class='Fillow'><a href='/'>Fillow</a></p>
 
 			<nav class='nav'>
 				<li><a class='nav-link' href='/'>Home</a></li>
@@ -20,8 +25,9 @@ export default function Navbar() {
 			</nav>
 		</header>
 		<div class ='background-div'>
-			<img src={background1} class='background' alt="background1" />
+			<img src={landing} class='background' alt="comp" />
 		</div>
+		</body>
 		</>
 	);
 }
