@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import Navbar from './views/Navbar';
+import React from 'react';
+import NavigationBar from './views/Navbar';
 import Register from './views/Register';
 import Login from './views/Login';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styling/style.css';
-import { Map, GoogleApiWrapper} from 'google-maps-react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const mapStyles = {
 	width: '100%',
@@ -28,19 +28,19 @@ export class MapContainer extends Component {
 	);
 }
 }
-	
 
-		
+
+
 function App() {
 	return (
 		<Router>
 			<div className="App">
-			<Navbar />
+			<NavigationBar />
 			<Route path='/register' component={Register} />;
 			<Route path='/login' component={Login} />;
 			</div>
 		</Router>
-		
+
 	);
 }
 
