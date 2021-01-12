@@ -5,10 +5,6 @@ require('dotenv').config();
 let app = express();
 
 
-app.get('/', (req, res) =>{
-    res.send('Hello');
-})
-
 // mongodb+srv://newuser:<password>@realestate.ozokl.mongodb.net/<dbname>?retryWrites=true&w=majority
 
 mongoose.connect(

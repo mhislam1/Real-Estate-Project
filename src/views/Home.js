@@ -5,7 +5,7 @@ class Home extends Component {
 	render() {
 		return(
 			<div>
-				<img src={landing} class='background' alt="comp" />
+			{/*	<img src={landing} class='background' alt="comp" />  */}
 			</div>
 		)
 	}
