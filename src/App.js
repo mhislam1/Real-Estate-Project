@@ -5,6 +5,7 @@ import Login from './views/Login';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styling/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Homepage from './views/Homepage';
 
 const mapStyles = {
 	width: '100%',
@@ -36,6 +37,7 @@ function App() {
 		<Router>
 			<div className="App">
 			<NavigationBar />
+			<Homepage />
 			<Route path='/register' component={Register} />;
 			<Route path='/login' component={Login} />;
 			</div>
