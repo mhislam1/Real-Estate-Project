@@ -1,10 +1,7 @@
-let express = require('express');
-let app = express();
+let router = require('express').Router();
 
-
-app.get('/', (req, res) =>{
-  //  res.render();
+router.get('/', (req, res,next) =>{
+  res.send('Homes');
 })
 
-
-app.listen(3000);
+module.exports = router;
