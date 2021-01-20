@@ -1,7 +1,7 @@
 let router = require('express').Router();
 
 router.get('/', (req, res,next) =>{
-  res.send('Homes');
+  res.send('Home');
 })
 
 module.exports = router;
