@@ -21,7 +21,7 @@ export default function Navbar() {
 				<li><a class='nav-link' href='register'>Register</a></li>
 				<li><a class='nav-link' href='login'>Login</a></li>
 				<li><a class='nav-link' href='about'>About</a></li>
-				<li><a class='nav-link' href='contact'>Contact</a></li>
+				<li><a class='nav-link' href='contacts'>Contact</a></li>
 			</nav>
 		</header>
 		<div class ='background-div'>
