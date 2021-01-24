@@ -32,7 +32,6 @@ export default function Navbar() {
 				<input type="radio" class="form-text" name="gender" value="F" required/>Female<br />
 				<input type="radio" class="form-text" name="gender" value="O" required/>Other<br />
 				
-				DOB: <input type="date" class="form-text" name="dob" required /><br />
 				<input type="submit" value="Register" class="reg-button" id="button1" onmouseover="myButton()" />
 				<input type="Reset" class="reset-button" id="button2" onmouseover="myButton()"/><br />
 			</div>
