@@ -65,6 +65,22 @@ header {
 	justify-content: space-around;
 }
 
+/* CONTACT PAGE */
+.contact-div{
+	display: grid;
+}
+
+.contact-message{
+	size: 5rem;
+}
+.btn-flat {
+	background-image:linear-gradient(to bottom,#a9d92f 0%,#7ec620 100%);
+	box-shadow: 0 -2px 0 #6aad10 inset;
+	color: white;
+	padding: 5px;
+}
+
+
  /* .Fillow, .Fillow a {
 	color: white;
 	flex:2;
