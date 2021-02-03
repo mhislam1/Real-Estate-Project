@@ -1,24 +1,28 @@
 import React from 'react'
-import NavigationBar from './views/Navbar';
-import Register from './views/Register';
-import Home from './views/Home';
-import Login from './views/Login';
-import Contact from './views/Contact'
+import Navbar from './component/Navbar/Navbar';
+import Register from './component/Register/Register';
+import Home from './component/Home/Home';
+import Login from './component/Login/Login';
+import Contact from './component/Contact/Contact'
+import About from './component/About/About'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styling/style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-export default function App() {
-	return(
-		<>
-		<Router>
-			<NavigationBar />
-			<Route path='/' component={Home} />
-			<Route path='/register' component={Register} />
-			<Route path='/login' component={Login} />
-			<Route path='/contact' component={Contact} />
-		</Router>
-		</>
-	);
+function App() {
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/login' component={Login} />
+          <Route path='/register' component={Register} />
+          <Route path='/contact' component={Contact} />
+		  <Route path='/about' component={About} />
+        </Switch>
+      </Router>
+    </>
+  );
 }
+
+export default App;

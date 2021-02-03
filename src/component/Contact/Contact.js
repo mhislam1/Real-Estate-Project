@@ -1,10 +1,11 @@
 import React from 'react';
-import {Button} from 'react-bootstrap';
+import './Contact.css';
+import backgroundImage from '../../Image/background4.jpg'
 
 export default function Contact(){
     return(
         <>
-            <div class='contact-div'>
+            <div class='contact-div' style={{ backgroundImage: `url(${backgroundImage})` }}>
                 <h1>Contact Us</h1>
                
                 Your Name
@@ -14,9 +15,7 @@ export default function Contact(){
                 <input type='email' class='contact-text' name='email' required/> <br/>
 
                 Your Message
-                <input type='text' class='contact-message' placeholder='Text' name='message' required/>
-                
-                 <Button as="input" type="submit" value="Submit" variant='flat' />{' '}
+                <input type='text' class='contact-message' placeholder='Text' name='message' required/>                
             </div>
         </>
     );

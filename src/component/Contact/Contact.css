@@ -1,0 +1,20 @@
+body{
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.contact-div{
+	display: grid;
+}
+
+.contact-message{
+	size: 5rem;
+}
+.btn-flat {
+	background-image:linear-gradient(to bottom,#a9d92f 0%,#7ec620 100%);
+	box-shadow: 0 -2px 0 #6aad10 inset;
+	color: white;
+	padding: 5px;
+}

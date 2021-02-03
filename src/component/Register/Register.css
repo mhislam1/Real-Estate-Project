@@ -1,0 +1,19 @@
+.reg-button{
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 15px;
+	color: white;
+	background-color: rgba(0, 255, 255, 0.562);
+	border: none;
+	outline:none;
+}
+
+.regdiv{
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}

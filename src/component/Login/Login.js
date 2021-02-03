@@ -1,8 +1,11 @@
 import React from 'react';
+import './Login.css'
+import backgroundImage from '../../Image/background3.jpeg'
 
-function Login(){
+export default function Login(){
 return(
     <>
+	<div className='logDiv' style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div class="form-app">
 			<h1>Log In To Your Account </h1>
 				
@@ -14,8 +17,8 @@ return(
 				
 			<input type="submit" value="Sign in" class="reg-button" id="button1" onmouseover="myButton()"/> <br />
         </div>
+	</div>
     </>
 )
 }
 
-export default Login;
