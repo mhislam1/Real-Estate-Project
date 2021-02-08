@@ -31,12 +31,14 @@ export default function Navbar() {
 				<input type="email" className="form-text" placeholder="Enter Email" name="email" required/><br />
 				
 				Gender:<br />
+				<div className="radio">
 				<input type="radio" className="form-text" name="gender" value="M" required/>Male<br />
 				<input type="radio" className="form-text" name="gender" value="F" required/>Female<br />
 				<input type="radio" className="form-text" name="gender" value="O" required/>Other<br />
-				
-				<input type="submit" value="Register" className="reg-button" id="button1" onmouseover="myButton()" />
-				<input type="Reset" className="reset-button" id="button2" onmouseover="myButton()"/><br />
+				</div>
+
+				<input type="submit" value="Register" className="reg-button" id="button1"  />
+				<input type="Reset" className="reset-button" id="button2" /><br />
 			</div>
 		</div>
 		</>

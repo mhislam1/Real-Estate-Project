@@ -1,12 +1,37 @@
-.reg-button{
-	border-radius: 20px;
+.reg-button, .reset-button{
 	font-size: 16px;
 	padding: 10px;
 	margin-top: 15px;
 	color: white;
-	background-color: rgba(0, 255, 255, 0.562);
 	border: none;
 	outline:none;
+	display: flex;
+	justify-content: center	
+}
+
+.reg-button{
+	background-color: rgba(0, 255, 255, 0.562);
+}
+
+.reg-button:hover{
+	background-color: blue;
+	color: black;
+	cursor: pointer
+}
+
+.reset-button{
+	background-color: rgba(150, 22, 22, 0.562);
+}
+
+.reset-button:hover{
+	background-color: red;
+	color: black;
+	cursor: pointer
+}
+
+.form-text{
+	margin: 0px 20px;
+	padding:3px
 }
 
 .regdiv{
@@ -14,6 +39,27 @@
 	background-attachment: fixed;
 	background-position: center;
     background-size: cover;
+	display: flex;
+	justify-content:center;
     min-width: 100%;
     min-height: 100%;
+}
+
+.form-app{
+	display: flex;
+	flex-direction: column;
+ 	justify-content:flex-end;
+	background-color:rgba(22, 3, 3, 0.8);
+	padding-top: 30px;
+	color:white;
+	min-width:30rem;
+}
+
+.form-app h1{
+	display: flex;
+	justify-content: center;
+}
+
+.radio{
+	display: flex;
 }

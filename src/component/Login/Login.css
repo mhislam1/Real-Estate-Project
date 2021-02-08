@@ -1,8 +1,21 @@
 .logDiv{
+	background-image:url('../../Image/background2.jpg');
     background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-    background-size: cover;
+    background-size:cover;
+	display: flex;
+	justify-content:center;
     min-width: 100%;
     min-height: 100%;
+}
+
+.form-app{
+	display: flex;
+	flex-direction: column;
+ 	justify-content:flex-end;
+	background-color:rgba(22, 3, 3, 0.8);
+	padding-top: 30px;
+	color:white;
+	min-width:30rem;
 }
