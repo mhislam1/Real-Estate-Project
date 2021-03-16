@@ -1,5 +1,4 @@
 import React, {useRef, useState} from 'react';
-import landing from '../../Image/background2.jpg';
 import {Link, useHistory} from 'react-router-dom';
 import {Form,Col,Button,Alert} from 'react-bootstrap'
 import './Register.css'
